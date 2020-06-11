@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ambush.wordtitans.MainActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/bUndo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/undo2"
+                android:enabled="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:id="@+id/tvWord"
+                android:layout_width="181dp"
+                android:layout_height="59dp"
+                android:hint="Start"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:maxLength="4"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:id="@+id/bSubmit"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/submit2"
+                android:enabled="false"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:typeface="serif"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:typeface="serif"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv14"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv15"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/tv16"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:background="@color/green"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:enabled="false"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score: 0"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textStyle="italic|bold"
+            android:typeface="serif"
+            android:textSize="30dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/tvScore"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="Make 3 and 4 letter words only \nANSWERS : \n"/>
+    </ScrollView>
+
+
+</LinearLayout>
